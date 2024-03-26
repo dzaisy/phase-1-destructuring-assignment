@@ -71,8 +71,8 @@ describe("index.js", () => {
   it("Object: uses destructuring to assign all appropriate variables using the keys as the variable names", () => {
     expect(muppetName).to.exist
     expect(muppetName).to.equal("Miss Piggy")
-    expect(color).to.exist
-    expect(color).to.equal("pink")
+    expect(colour).to.exist
+    expect(colour).to.equal("pink")
     expect(song).to.exist
     expect(song).to.equal("Never Before, Never Again")
     expect(job).to.exist
